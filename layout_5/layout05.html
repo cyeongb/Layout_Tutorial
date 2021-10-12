@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout05</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #wrap div {
+            /* text-align: center; */
+        }
+
+        #header-wrap {
+            /* width: 100%;는 default */
+            background-color: #604020;
+
+        }
+
+        #banner-wrap {
+            background-color: #996633;
+        }
+
+        #content-wrap {
+            background-color: #bf8040;
+        }
+
+        #footer-wrap {
+            background-color: #d2a679;
+        }
+
+        .header-container {
+            margin: 0 auto;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #800000;
+        }
+
+        .banner-container {
+            margin: 0 auto;
+            width: 1000px;
+            height: 300px;
+            line-height: 300px;
+            background-color: #cc0000;
+        }
+
+        .content-container {
+            margin: 0 auto;
+            width: 1000px;
+            height: 500px;
+            line-height: 500px;
+            background-color: #ff0000;
+        }
+
+        .footer-container {
+            margin: 0 auto;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #ff3333;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 참고사이트 : https://www.dbcut.com/bbs/index.php 
+    이 웹사이트가 아니고 위 사이트 내부에있는 사이트들을 참고.
+    전체영역이 있고, 화면을 줄여도 내용(container)은 가운데정렬이 되는 구조.
+    -->
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header-container</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-container">banner-container</div>
+        </div>
+        <div id="content-wrap">
+            <div class="content-container">content-container</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-container">footer-container</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

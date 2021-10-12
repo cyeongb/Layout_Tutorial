@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout01</title>
+    <style>
+        body {
+            background-color: #c8e6c9
+        }
+
+        #wrap {
+            width: 1000px;
+            height: 900px;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 40px;
+            text-align: center
+        }
+
+        #header {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            /* line-height : 한줄일 때, height만큼 간격을 줘서 중앙정렬의 효과를 볼 수 있다. */
+            background-color: #2e7d32;
+
+        }
+
+        #nav {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #388e3c;
+        }
+
+        #side {
+            background-color: #43a047;
+            width: 300px;
+            height: 600px;
+            float: left;
+            /* float:left > block요소를 왼쪽 정렬 */
+            line-height: 600px;
+        }
+
+        #contents {
+            width: 700px;
+            height: 600px;
+            background-color: #4caf50;
+            float: left;
+            line-height: 600px;
+        }
+
+        #footer {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #66bb6a;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">HEADER </div>
+        <div id="nav"> NAV</div>
+        <div id="side">SIDE </div>
+        <div id="contents"> CONTENTS</div>
+        <div id="footer"> FOOTER</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout07</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 전체 레이아웃 */
+        #wrap {
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+        }
+
+        #header {
+            height: 117px;
+        }
+
+        #banner {
+            height: 359px;
+            background: #CD1616;
+        }
+
+        #content {
+            height: 815px;
+        }
+
+        #footer {
+            height: 209px;
+        }
+
+        /*  레이아웃 */
+        #header-top {
+            height: 57px;
+            background: #E9A1A1;
+        }
+
+        #header-nav {
+            height: 60px;
+            background: #EB6868;
+        }
+
+        #content1 {
+            height: 114px;
+            background: #AD2626;
+        }
+
+        #content2 {
+            height: 387px;
+            background: #960909;
+        }
+
+        #content3 {
+            height: 314px;
+            background: #7C0F0F;
+        }
+
+        #footer-nav {
+            height: 51px;
+            background: #520404;
+        }
+
+        #footer-info {
+            height: 161px;
+            background: #410303;
+        }
+
+
+        /* 컨테이너 */
+        .container {
+            width: 838px;
+            margin: 0 auto;
+            /* border: 2px solid #fff; */
+            background: rgba(0, 0, 0, 0.3);
+            height: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="header-top">
+                <div class="container">header-top</div>
+            </div>
+            <div id="header-nav">
+                <div class="container">header-nav</div>
+            </div>
+        </div>
+        <!-- //header -->
+        <div id="banner">
+            <div class="container">banner</div>
+        </div>
+        <!-- //banner -->
+        <div id="content">
+            <div id="content1">
+                <div class="container">content1</div>
+            </div>
+            <div id="content2">
+                <div class="container">content2</div>
+            </div>
+            <div id="content3">
+                <div class="container">content3</div>
+            </div>
+        </div>
+        <!-- //content -->
+
+        <div id="footer">
+            <div id="footer-nav">
+                <div class="container">footer-nav</div>
+            </div>
+            <div id="footer-info">
+                <div class="container">footer-info</div>
+
+            </div>
+        </div>
+        <!-- //footer -->
+    </div>
+    <!-- //wrap -->
+</body>
+
+</html>

@@ -7,24 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout06</title>
     <style>
-        #wrap {}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+        }
 
         #header {
-            width: 100%;
-            height: 94px;
+            height: 117px;
+            background-color: #999;
         }
 
         #banner {
-            width: 100%;
-            height: 287px;
+            height: 359px;
+            background-color: #888;
         }
 
         #content {
-            width: 100%;
+            height: 815px;
+            background-color: #777;
         }
 
         #footer {
-            width: 100%;
+            height: 209px;
+            background-color: #666;
+        }
+
+        .container {
+            width: 838px;
+            height: inherit;
+            margin: 0 auto;
+
+        }
+
+        .header {
+            background-color: #EB6868;
+        }
+
+        .banner {
+            background-color: #CD1616;
+        }
+
+        .content {
+            background-color: #960909;
+        }
+
+        .footer {
+            background-color: #620909;
         }
     </style>
 </head>
@@ -33,10 +67,18 @@
     <!-- 위사이트 참고해서 기본적인 사이트 구조 만들기 
          https://www.welcomebank.co.kr/ib20/mnu/IBN000000000#none -->
     <div id="wrap">
-        <div id="header">header</div>
-        <div id="banner">banner</div>
-        <div id="content">content</div>
-        <div id="footer">footer</div>
+        <div id="header">
+            <div class="header container">header</div>
+        </div>
+        <div id="banner">
+            <div class="banner container">banner</div>
+        </div>
+        <div id="content">
+            <div class="content container">content</div>
+        </div>
+        <div id="footer">
+            <div class="footer container">footer</div>
+        </div>
     </div>
 
 </body>
